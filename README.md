@@ -62,3 +62,4 @@ Then:
 * And the total sales tax amount for the shopping cart should equal _35.00_
 *	And the shopping cart's total price should equal _314.96_
 *	All totals should be rounded up to 2 decimal places as described in AC 1. 
+
