@@ -10,7 +10,7 @@ public class NumberUtilTest {
 
     @Test
     void shouldGetNumberRoundedOffSinglePrecision() {
-        assertEquals(BigDecimal.valueOf(123.2), NumberUtil.valueAfterRoundOff(BigDecimal.valueOf(123.199), 1));
+        assertEquals(BigDecimal.valueOf(124.0), NumberUtil.valueAfterRoundOff(BigDecimal.valueOf(123.999), 1));
     }
 
     @Test

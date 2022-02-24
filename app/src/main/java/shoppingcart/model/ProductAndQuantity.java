@@ -6,7 +6,7 @@ import lombok.Getter;
 
 @Data
 @AllArgsConstructor
-final public class ProductWithQuantity {
-    @Getter private Product product;
+final public class ProductAndQuantity {
+    @Getter final private Product product;
     private Integer quantity;
 }
